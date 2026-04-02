@@ -6,6 +6,12 @@ This project demonstrates how to implement identity management and role-based ac
 
 The goal of this lab was to simulate how an organization controls access to infrastructure using security groups and RBAC.
 
+## Architecture
+
+The RBAC model used in this lab demonstrates how Azure role-based access control organizes permissions through users and security groups inside a tenant.
+
+![RBAC Architecture](
+
 ## Technologies Used
 
 Microsoft Azure  
