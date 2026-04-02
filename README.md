@@ -29,7 +29,9 @@ Groups were created to represent different organizational roles:
 Users were assigned to groups, and RBAC roles were applied at the Resource Group scope to enforce the principle of least privilege.
 
 • Adminis- Virtual Machine Contributors
+
 • Developers- Readers
+
 • Auditors- Readers
 
 ## Technologies Used
