@@ -13,10 +13,6 @@ Microsoft Entra ID
 Azure Virtual Machines  
 Azure RBAC  
 
-## Architecture
-
-![Architecture Diagram](architecture/architecture-diagram.png)
-
 ## Key Concepts Demonstrated
 
 Identity management  
