@@ -22,7 +22,7 @@ Tenant
 
 Groups were created to represent different organizational roles:
 
-• IT-Admins – infrastructure management
+• IT-Admins – infrastructure management    
 • Developers – read-only access to resources  
 • Auditors – visibility for compliance review  
 
