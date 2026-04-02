@@ -16,11 +16,13 @@ The RBAC model used in this lab demonstrates how Azure role-based access control
 
 The environment follows a simple RBAC hierarchy:
 
-Tenant  
-→ Groups
-→ Users  
+This lab uses Microsoft Entra ID security groups to simplify access management.
 
-Groups were created to represent different organizational roles:
+- **IT-Admins** → **Virtual Machine Contributor**
+- **Developers** → **Reader**
+- **Auditors** → **Reader**
+
+Role assignments were scoped at the **Resource Group** level to enforce the principle of least privilege.
 
 • IT-Admins – infrastructure management    
 • Developers – read-only access to resources  
