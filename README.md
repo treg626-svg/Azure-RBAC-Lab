@@ -6,6 +6,14 @@ This project demonstrates how to implement identity management and role-based ac
 
 The goal of this lab was to simulate how an organization controls access to infrastructure using security groups and RBAC.
 
+## Project Objectives
+
+- Create and manage users in Microsoft Entra ID
+- Organize users into security groups
+- Assign Azure RBAC roles based on job function
+- Apply least-privilege access at the resource group scope
+- Test access permissions across multiple identities
+
 ## Architecture
 
 The RBAC model used in this lab demonstrates how Azure role-based access control organizes permissions through users and security groups inside a tenant.
@@ -30,10 +38,6 @@ Role assignments were scoped at the **Resource Group** level to enforce the prin
 
 Users were assigned to groups, and RBAC roles were applied at the Resource Group scope to enforce the principle of least privilege.
 
-• Adminis- Virtual Machine Contributors    
-• Developers- Readers    
-• Auditors- Readers    
-
 ## Technologies Used
 
 Microsoft Azure  
@@ -41,13 +45,14 @@ Microsoft Entra ID
 Azure Virtual Machines  
 Azure RBAC  
 
-## Key Concepts Demonstrated
+## Skills Demonstrated
 
-Identity management  
-Security groups  
-RBAC role assignments  
-Least privilege access model  
-Azure infrastructure deployment  
+- Microsoft Entra ID administration
+- Azure RBAC configuration
+- Security group management
+- Resource group scoping
+- Least-privilege access design
+- Azure VM deployment  
 
 ## Lab Components
 
