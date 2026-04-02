@@ -12,6 +12,25 @@ The RBAC model used in this lab demonstrates how Azure role-based access control
 
 ![RBAC Architecture](architecture/architecture-diagram.png)
 
+## Explanation
+
+The environment follows a simple RBAC hierarchy:
+
+Tenant  
+→ Groups
+→ Users  
+
+Groups were created to represent different organizational roles:
+
+• IT-Admins – infrastructure management  
+• Developers – read-only access to resources  
+• Auditors – visibility for compliance review  
+
+Users were assigned to groups, and RBAC roles were applied at the Resource Group scope to enforce the principle of least privilege.
+•Adminis- Virtual Machine Contributors
+Developers- Readers
+Auditors- Readers
+
 ## Technologies Used
 
 Microsoft Azure  
