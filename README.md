@@ -10,7 +10,7 @@ The goal of this lab was to simulate how an organization controls access to infr
 
 The RBAC model used in this lab demonstrates how Azure role-based access control organizes permissions through users and security groups inside a tenant.
 
-![RBAC Architecture](
+![RBAC Architecture](architecture/architecture-diagram.png)
 
 ## Technologies Used
 
